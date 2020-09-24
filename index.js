@@ -28,13 +28,7 @@ mongoose.connect(
     }
   );
 
-
-  
-
-
-// here goes our routes //
-app.use('/hotels', hotelsRoutes); // Router Didier
-
+app.use('/hotels', hotelsRoutes);
 
 app.listen(port, ()=>{
     console.log(`Server started on port : ${port}!`)
